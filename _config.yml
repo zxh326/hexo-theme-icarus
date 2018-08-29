@@ -12,11 +12,11 @@ customize:
         enabled: true
         width: 40
         height: 40
-        url: /logo.png
+        url: /images/logo.png
     profile:
         enabled: true # Whether to show profile bar
-        avatar: # css/images/avatar.png
-        gravatar: zth_9451@qq.com # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+        avatar: /images/avatar.png # css/images/avatar.png
+        gravatar:  # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
         author: zzde
         author_title: Designer & Programmer
         location: DaLian, China
@@ -24,11 +24,11 @@ customize:
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: /favicon.ico # path to favicon
+    favicon: /images/favicon.ico # path to favicon
     social_links:
         github: https://github.com/zxh326
-        twitter: https://twitter.com/tancolat
-        codepen: http://codepen.io/zthxxx
+        # twitter: https://twitter.com/tancolat
+        # codepen: http://codepen.io/zthxxx
         rss: /atom.xml
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
